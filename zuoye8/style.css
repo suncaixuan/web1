@@ -1,0 +1,28 @@
+body{
+	color:#999999;
+	font:12px Arial;
+	height:2em;
+}
+
+a:link{
+	color:#727272;
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+.shouye{
+	font:bold 14px;
+	color:#b9f605;
+}
+
+.special{
+	color:#fdb306;
+}
+
+span:hover{
+	color:#b9f605;
+	text-decoration:none;
+}
