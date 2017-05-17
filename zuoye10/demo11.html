@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>第十一讲的练习</title>
+	<meta charset="UTF-8"/>
+
+	<style type="text/css">
+
+	/*链接*/
+
+	a:link{
+		color:#ff0000;
+		text-decoration:none;
+	}
+
+	a:hover{
+		color:#00ffff;
+		text-decoration:underline;
+	}
+
+	a:active{
+		color:#ffffff;
+		text-decoration:none;
+	}
+
+	a:visited{
+		color:#5f9ea0;
+		text-decoration:none;
+	}
+
+	/*表格*/
+
+	table{
+		width:600px;
+		height:150px;
+		background:#000000;
+		margin:0px auto;
+		text-align:center;
+	}
+
+	caption{
+		font:bold 24px "黑体";
+		padding:10px;
+	}
+
+	th{
+		background:#A52A2A;
+	}
+
+	.hui{
+		background:#D3D3D3;
+	}
+
+	.bai{
+		background:#ffffff;
+	}
+
+	/*表单*/
+
+	form{
+		background:#ffffff;
+		width:400px;
+		margin:30px auto;
+		border:solid 1px #000000;
+		text-align:center;
+	}
+
+	input:focus{
+		background-color:#008080;
+	}
+
+	.table{
+		background:#ffffff;
+		width:400px;
+		height:100px;
+		text-align:center;
+		margin:15px auto;
+	}
+
+	h3{
+		background:#1E90FF;
+		display:block;
+		padding:0px;
+		margin:auto;
+		text-align:left;
+	}
+
+	p{
+		background:#ffffff;
+		margin:15px auto;
+	}
+
+	.input{
+		background:#5F9EA0;
+		color:#ffffff;
+	}
+
+	.deng{
+		background:#20B2AA;
+		color:#000000;
+	}
+
+	.tui{
+		background:#87CEFA;
+		color:#ffffff;
+	}
+
+	/*列表*/
+
+	ul{
+		width:200px;
+		background:#fa8072;
+		list-style-type:square;
+		list-style-position:outside;
+	}
+
+	ol{
+		width:200px;
+		background:#ffdab9;
+		list-style-position:inside;
+	}
+
+	dl{
+		width:300px;
+		background:#b0c4de;
+		text-align:left;
+	}
+
+	li:first-child{color:#00ffff;}
+
+	q:lang(no){
+               quotes: "~" "~";
+               /*quotes属性定义引号括起的嵌套标记*/
+               color:#f00;
+           }
+
+    h4:first-letter{color:#ff8c00;}
+
+	</style>
+
+</head>
+
+<body>
+
+<!--链接-->
+
+  <a href="#">春天的雨</a>
+  <a href="#">夏天的风</a>
+  <a href="#">秋天的叶</a>
+  <a href="#">冬天的光</a>
+
+  <br>
+  <hr>
+
+<!--表格-->
+
+<table boder="1" cellpadding="1" cellspacing="1" align="center">
+
+    <caption>中国音乐榜</caption>
+
+	<tr>
+		<th>名次</th>
+		<th>歌手</th>
+		<th>歌曲</th>
+	</tr>
+
+	<tr class="hui">
+		<td>1</td>
+		<td>圣诞制作</td>
+		<td>脱掉</td>
+	</tr>
+
+	<tr class="bai">
+		<td>2</td>
+		<td>牛奶咖啡</td>
+		<td>咖喱咖喱</td>
+	</tr>
+
+	<tr class="hui">
+		<td>3</td>
+		<td>庄心妍</td>
+		<td>以后的以后</td>
+	</tr>
+
+	<tr class="bai"><td colspan="3" align="right">上海音乐台</td></tr>
+
+</table>
+
+<br>
+<hr>
+
+<!--表单-->
+
+<form>
+
+	<h3>&nbsp;会员登录<span style="margin-left:200px;">返回首页&gt;&gt;</span></h3>
+
+	<table class="table">
+
+		<tr>
+		<td style="width:100px;">会员名</td>
+		<td><input name="" type="text" value="huiyuan001" style="width:230px;" class="input" /></td>
+		</tr>
+
+		<tr>
+		<td style="width:100px;">密&nbsp;&nbsp;&nbsp;码</td>
+		<td><input name="" type="password" value="123456" style="width:230px;" class="input" /></td>
+		</tr>
+
+	</table>
+
+	<p><input type="submit" value="登录" class="deng" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="退出" class="tui" /></p>
+
+</form>
+
+<br>
+<hr>
+
+<!--列表-->
+
+<ul>
+	<li>黄山风景区</li>
+	<li>西湖风景区</li>
+	<li>桂林风景区</li>
+</ul>
+
+<br>
+
+<ol>
+	<li>第一名</li>
+	<li>第二名</li>
+	<li>第三名</li>
+</ol>
+
+<br>
+
+<dl>
+	<dt>黄山风景区</dt>
+	<dd>黄山位于安徽省南部黄山市</dd>
+	<dt>西湖风景区</dt>
+	<dd>被誉为“人间天堂”</dd>
+</dl>
+
+<br>
+
+<h4>你是世间最美的风景<q lang="no">哈哈</q>你是我遇见最美的意外</h4>
+
+</body>
+</html>
