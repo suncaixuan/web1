@@ -1,0 +1,30 @@
+*{padding-bottom: 0px;margin: 0px;}
+body{font:12px/22px "宋体";background:#e1ebe2;}
+a:link{text-decoration: none;color:#333;}
+a:hover{text-decoration:underline;color:#8B0000;}
+h1{line-height:40px;text-align:center;}
+h3{text-align:center;}
+p{font-size:12px;text-indent:24px;}
+.input{width:120px;height:;margin:0px 0px 5px 0px;}
+input{background:#b4d2b9;}
+.clear{clear:both;}
+.logo{width:1000px;margin:0px auto;}
+.menu{width:100%;height:40px;background:#82b18d;}
+.menu ul{width:1000px;margin:0px auto;list-style: none;}
+.menu ul li{float:left;width:120px;font-weight:bold;line-height:40px;}
+.menu a{font-size: 16px;color:#fff;}
+.banner,.banner img{width:100%;height:auto;}
+.main{width:1000px;margin:0px auto;}
+.m_left{width:390px;float:left;margin:0px 10px 10px 0px;}
+.m_right{width:590px;float:left;margin:0px 0px 10px 10px;background:#b4d2b9;}
+.m_li{font:22px '楷体';}
+.list{width:1000px;margin:0px auto;}
+.list_img1{width:230px;height:300px;float:left;margin:0px 10px 20px 0px;}
+.list_img2{width:230px;height:300px;float:left;margin:0px 10px 20px 10px;}
+.list_img3{width:230px;height:300px;float:left;margin:0px 0px 20px 10px;}
+.list_img11{width:230px;height:550px;float:left;margin:0px 10px 20px 0px;}
+.list_img22{width:230px;height:550px;float:left;margin:0px 10px 20px 0px;}
+.list_img33{width:230px;height:550px;float:left;margin:0px 10px 20px 0px;}
+.footer{width:100%;font-size: 16px;color:#006400;}
+.jieshao{width:1000px;font-size:20px;text-indent:40px;margin:20px auto;}
+.caidan{width:1000px;margin:20px auto;}
