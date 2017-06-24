@@ -1,0 +1,17 @@
+.dao_shou{color:#f0f0f0;font-size:18px;}
+
+.body{width:1000px;height:300px;margin:60px auto;}
+
+.body h3{text-align:center;margin:5px auto;}
+.body a{text-decoration:none;color:#f0f0f0;margin:30px auto;}
+.body a:hover{color:#ffa500;}
+.body_a{width:184px;float:left;margin:10px 10px 10px 0px;}
+.body_b{width:184px;float:left;margin:10px;}
+.body_c{width:184px;float:left;margin:10px 0px 10px 10px;}
+
+.imga{background:url("../images/lei1.png");text-align:right;height:35px;}
+.imga h3{text-align:right;color:#ffa500;}
+.imgb{background:url("../images/lei2.png");text-align:right;height:35px;}
+.imgb h3{text-align:right;color:#ffa500;}
+.imgc{background:url("../images/lei3.png");text-align:right;height:35px;}
+.imgc h3{text-align:right;color:#ffa500;}
